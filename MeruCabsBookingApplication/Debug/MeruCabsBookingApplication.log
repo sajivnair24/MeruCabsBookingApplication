@@ -1,0 +1,27 @@
+﻿Build started 10/12/2016 3:15:41 PM.
+     1>Project "D:\Sahid_Development\MeruCabsBookingApplication\MeruCabsBookingApplication\MeruCabsBookingApplication.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\Sahid_Development\MeruCabsBookingApplication\/include /ID:\Sahid_Development\MeruCabsBookingApplication\/include/openni /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MeruCabsBookingApplication.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt FingerTracker.cpp
+         FingerTracker.cpp
+     1>d:\sahid_development\merucabsbookingapplication\merucabsbookingapplication\fingertracker.cpp(94): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sahid_development\merucabsbookingapplication\merucabsbookingapplication\fingertracker.cpp(101): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sahid_development\merucabsbookingapplication\merucabsbookingapplication\fingertracker.cpp(207): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sahid_development\merucabsbookingapplication\merucabsbookingapplication\fingertracker.cpp(236): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sahid_development\merucabsbookingapplication\merucabsbookingapplication\fingertracker.cpp(273): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\sahid_development\merucabsbookingapplication\merucabsbookingapplication\fingertracker.cpp(335): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sahid_development\merucabsbookingapplication\merucabsbookingapplication\fingertracker.cpp(404): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Sahid_Development\MeruCabsBookingApplication\Debug\MeruCabsBookingApplication.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Sahid_Development\MeruCabsBookingApplication\/lib opencv_imgproc247d.lib opencv_core247d.lib opencv_highgui247d.lib opencv_contrib247d.lib opencv_objdetect247d.lib OpenNI2.lib NiTE2.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\Sahid_Development\MeruCabsBookingApplication\Debug\MeruCabsBookingApplication.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Sahid_Development\MeruCabsBookingApplication\Debug\MeruCabsBookingApplication.lib" /MACHINE:X86 Debug\MeruCabsBookingApplication.res
+         Debug\FingerTracker.obj
+         Debug\NiTEHandTracker.obj
+         Debug\MeruCabsBookingApplication.obj
+         Debug\MeruCabsBookingApplicationDlg.obj
+         Debug\OpenCVFaceRecognition.obj
+         Debug\OpenCVKinect.obj
+         Debug\stdafx.obj
+         MeruCabsBookingApplication.vcxproj -> D:\Sahid_Development\MeruCabsBookingApplication\Debug\MeruCabsBookingApplication.exe
+     1>Done Building Project "D:\Sahid_Development\MeruCabsBookingApplication\MeruCabsBookingApplication\MeruCabsBookingApplication.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.65
